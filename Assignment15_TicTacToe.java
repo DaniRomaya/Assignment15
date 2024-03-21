@@ -116,7 +116,7 @@ public class Assignment15_TicTacToe extends Application {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Game Over");
         alert.setHeaderText(null);
-        alert.setContentText("Player " + (playerX ? "X" : "O") + " wins!");
+        alert.setContentText("Player " + (playerX ? "O" : "X") + " wins!");
         alert.showAndWait();
     }
 
